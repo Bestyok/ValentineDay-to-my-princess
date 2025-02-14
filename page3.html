@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine, My Princess💖</title>
+    <style>
+        body {
+            background-color: #ffb3b3;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 40px;
+            color: #b30059;
+            text-shadow: 2px 2px 4px #000000;
+            animation: textAnimation 2s infinite;
+        }
+        p {
+            font-size: 20px;
+            color: #800000;
+        }
+        .container {
+            margin-top: 20px;
+        }
+
+        /* กล่องข้อความ (Modal) */
+        .modal {
+            display: none; 
+            position: fixed; 
+            z-index: 1; 
+            left: 0;
+            top: 0;
+            width: 100%; 
+            height: 100%; 
+            overflow: auto;
+            background-color: rgba(0,0,0,0.4);
+            padding-top: 60px;
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%; 
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        @keyframes textAnimation {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        .back-button {
+            background-color: #ff3366;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .back-button:hover {
+            background-color: #e6004c;
+        }
+
+        /* ปรับขนาด GIF */
+        .modal-img {
+            width: 20%;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Happy Valentine, My Princess💖</h1>
+    <p>𝐈 𝐥𝐨𝐯𝐞 𝐲𝐨𝐮 𝐞𝐯𝐞𝐫𝐲 𝐬𝐞𝐜𝐨𝐧𝐝 𝐚𝐧𝐝 𝐰𝐢𝐥𝐥 𝐥𝐨𝐯𝐞 𝐲𝐨𝐮 𝐟𝐨𝐫𝐞𝐯𝐞𝐫 𝐧𝐨 𝐦𝐚𝐭𝐭𝐞𝐫 𝐰𝐡𝐚𝐭 𝐭𝐡𝐞 𝐬𝐢𝐭𝐮𝐚𝐭𝐢𝐨𝐧 𝐢𝐬.</p>
+
+    <div class="container">
+        <img src="image2.jpg" alt="Another Special Image" width="35%" style="border-radius: 10px;">
+    </div>
+
+    <p>𝐌𝐚𝐲 𝐨𝐮𝐫 𝐞𝐯𝐞𝐫𝐲 𝐝𝐚𝐲 𝐛𝐞 𝐟𝐢𝐥𝐥𝐞𝐝 𝐰𝐢𝐭𝐡 𝐥𝐨𝐯𝐞 𝐚𝐧𝐝 𝐡𝐚𝐩𝐩𝐢𝐧𝐞𝐬𝐬
+        <p>ข้างล่างมีกล่องข้อความอะไรด้วยไม่รู้ลองกดเข้าไปดูสิ 😚
+        </p>
+    </p>
+
+    <!-- ปุ่มย้อนกลับไปหน้าแรก -->
+    <button class="back-button" onclick="window.location.href='index.html'">𝐁𝐀𝐂𝐊 ⬅️</button>
+    
+    <!-- ปุ่มสำหรับเปิดกล่องข้อความ -->
+    <button class="back-button" id="myBtn">  𝐎𝐏𝐄𝐍 𝐓𝐄𝐗𝐓 𝐁𝐎𝐗 💌</button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Happy Valentine รักอ้วนมากนะ!</h2>
+
+            <!-- ใส่ GIF -->
+            <img src="love-animation.gif" alt="Love GIF" class="modal-img">
+            
+            <p>แฮปปี้วาเลนไทน์เดย์ เค้าขอให้ที่รักมีความสุขในทุกเทศกาลที่มาถึง
+                ขอให้ทุกช่วงเวลาที่ ที่รัก ใช้ชีวิตเต็มไปด้วยความร่าเริงและรอยยิ้มที่กว้างขึ้นไปทุกๆวัน
+                ขอให้ที่รักได้พบกับความสุขในทุกๆ สถานการณ์ไม่ว่าจะเป็นเรื่องเล็กหรือใหญ่
+                ขอให้ที่รักรู้สึกได้ถึงความรักและการดูแลจากเค้าเสมอในทุกเหตุการณ์ที่ ที่รักเผชิญ
+                ไม่ว่าจะเป็นเรื่องยากหรือท้าทายแค่ไหนก็อยากให้ที่รักรู้ว่าเค้าจะอยู่เคียงข้างที่รักเสมอ
+                พร้อมที่จะซัพพอร์ตในทุกการตัดสินใจและทุกความฝันที่ ที่รักมี
+                สุดท้าย เค้าขอให้โลกใบนี้ใจดีกับที่รักให้ทุกก้าวที่ ที่รัก ก้าวไปในชีวิตเต็มไปด้วยโอกาสและความสำเร็จ
+                ขอให้ที่่รักได้รับความรักและความเอาใจใส่จากทุกคนที่เข้ามาในชีวิต เพราะที่รักสมควรได้รับสิ่งดีๆที่สุดเท่าที่จะมีได้
+                ขอให้ที่รักมีความสุขในทุกๆ วัน และรู้ว่าเค้าจะเป็นส่วนหนึ่งที่คอยเป็นกำลังใจให้ที่รักตลอดไปนะ รักอ้วนที่สุดเลย 
+                😳❤️</p>
+        </div>
+    </div>
+
+    <script>
+        // ดึง modal มาใช้
+        var modal = document.getElementById("myModal");
+
+        // ปุ่มที่เปิด modal
+        var btn = document.getElementById("myBtn");
+
+        // ปุ่มกากบาท (ปิด modal)
+        var span = document.getElementsByClassName("close")[0];
+
+        // เมื่อกดปุ่ม เปิดกล่องข้อความ
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+
+        // เมื่อกดปุ่ม X ปิด modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        // เมื่อคลิกนอก modal ให้ปิดมัน
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

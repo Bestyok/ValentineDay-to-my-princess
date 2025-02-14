@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สุขสันต์วันวาเลนไทน์, ที่รัก!</title>
+    <style>
+        body {
+            background-color: #ffb3b3;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            /* จัดให้อยู่ตรงกลาง */
+            justify-content: center;
+            /* จัดให้อยู่ตรงกลาง */
+            align-items: center;
+            /* จัดให้อยู่ตรงกลาง */
+            min-height: 50vh;
+            /* ให้มีความสูงอย่างน้อยครึ่งหนึ่งของหน้าจอ */
+        }
+
+        .envelope {
+            width: 400px;
+            /* ขนาดใหญ่ขึ้น */
+            height: 260px;
+            /* ขนาดใหญ่ขึ้น */
+            position: relative;
+            background-color: #f9c5c8;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+        }
+
+        .envelope img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+        .envelope p {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            color: #800000;
+            font-size: 24px;
+        }
+
+        .open-button {
+            /* คำว่า "เปิด" */
+            margin-top: 20px;
+            font-size: 50px;
+            color: #800000;
+            cursor: pointer;
+            border: 2px solid #800000;
+            /* เพิ่มกรอบ */
+            padding: 10px 10px;
+            /* ปรับ padding ให้เหมาะสม */
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            /* เพิ่มเงา */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="envelope" onclick="window.location.href='page2.html'">
+            <img src="envelope.gif" alt="Envelope GIF">
+        </div>
+    </div>
+    <button class="next-button" onclick="window.location.href='page2.html'">Open Message My Princess💖</button>
+</body>
+
+</html>

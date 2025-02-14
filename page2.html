@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine, My Princess💖</title>
+    <style>
+        body {
+            background-color: #ffb3b3;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 40px;
+            color: #b30059;
+            text-shadow: 2px 2px 4px #000000;
+            animation: textAnimation 2s infinite;
+        }
+        p {
+            font-size: 20px;
+            color: #800000;
+        }
+        .heart {
+            font-size: 50px;
+            color: #ff6666;
+            animation: pulse 1.5s infinite;
+        }
+        .container {
+            margin-top: 20px;
+        }
+        video {
+            width: 20%;
+            border-radius: 20px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+
+        @keyframes textAnimation {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        .next-button {
+            background-color: #ff3366;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .next-button:hover {
+            background-color: #e6004c;
+        }
+    </style>
+<body>
+    <h1>Happy Valentine, My Princess💖</h1>
+    <p>ɪ ʟᴏᴠᴇ ʏᴏᴜ ᴛʜᴇ ᴍᴏꜱᴛ ɪɴ ᴛʜᴇ ᴡᴏʀʟᴅ. ɴᴏ ᴍᴀᴛᴛᴇʀ ʜᴏᴡ ᴍᴀɴʏ ᴅᴀʏꜱ ᴘᴀꜱꜱ, ɪ ᴡɪʟʟ ʟᴏᴠᴇ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪꜱ ꜰᴏʀᴇᴠᴇʀ.
+    </p>
+    <div class="container">
+        <!-- ใส่ภาพ -->
+        <img src="image.jpg" alt="Special Image" width="35%" style="border-radius: 10px;">
+    </div>
+
+    <p>น่ารักกกมั้ย มีต่ออีกนะ  ❤️</p>
+
+    <div class="container">
+        <!-- ใส่วิดีโอจากไฟล์ -->
+        <video controls>
+            <source src="video-name.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <p>นี่ไงอยู่ข้างล่าง  ⤵️</p>
+
+    <!-- ปุ่มไปยังหน้า 2 -->
+    <button class="next-button" onclick="window.location.href='page3.html'">💘 Valentine’s Day</button>
+</body>
+</html>
